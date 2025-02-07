@@ -1,0 +1,113 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #3b3b3b;
+    color: #f836de;
+}
+
+/* Header */
+header {
+    background-color: #444343;
+    color: #fa2182;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+
+/* Navigation */
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    background-color: #d63ea4;
+    padding: 0;
+    margin: 0;
+}
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: #af4c6a;
+    border-radius: 5px;
+}
+.logo {
+    width: 100px;
+}
+
+.menu-icon {
+    font-size: 10px;
+    cursor: pointer;
+}
+
+/* Hero Section */
+.hero {
+    background: url('logo.jpg') no-repeat center/cover;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    color: #f2a3c7;
+}
+
+.btn {
+    padding: 10px 20px;
+    background: #f2a3c7;
+    color: #111;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Facilities */
+.facilities-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+/* Slideshow */
+.slideshow-container {
+    position: relative;
+    max-width: 50%;
+    margin: auto;
+}
+
+.slide {
+    display: none;
+}
+
+.slide img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Bottom Navigation */
+.bottom-nav {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: #f74fc4;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
